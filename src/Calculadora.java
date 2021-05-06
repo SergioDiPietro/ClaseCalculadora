@@ -53,8 +53,8 @@ public class Calculadora {
         return Math.abs(a);
     }
 
-    public double elevar(int exponente) {
-        return Math.pow(b, exponente);
+    public double elevar() {
+        return Math.pow(a, b);
     }
 
     public boolean esPositivo() {
