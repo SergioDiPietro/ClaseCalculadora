@@ -35,7 +35,7 @@ public class Calculadora {
         this.b = b;
     }
 
-    // Métodos
+// Métodos
 
     public int suma() {
         return a+b;
