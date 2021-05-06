@@ -64,4 +64,14 @@ public class CalculadoraTest {
         double expected = 8;
         assertEquals(test.elevar(), expected);
     }
+
+// 4.-  Comprobar que dos objetos no son iguales. 
+
+    @Test
+    public void testObjetosIguales() {
+        Calculadora testA = new Calculadora(10,10);
+        Calculadora testB = new Calculadora(10,10);
+
+        assertNotEquals(testA, testB);
+    }
 }
